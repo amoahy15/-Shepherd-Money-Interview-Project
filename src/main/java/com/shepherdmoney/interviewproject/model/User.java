@@ -27,4 +27,12 @@ public class User {
     // HINT: A user can have one or more, or none at all. We want to be able to query credit cards by user
     //       and user by a credit card.
     private List<CreditCard> creditCards = new ArrayList<>();
+
+	public String getIssuanceBank() {
+		return null;
+	}
+
+    public String getNumber() {
+        return null;
+    }
 }

@@ -12,4 +12,12 @@ public class UpdateBalancePayload {
     private Instant transactionTime;
 
     private double transactionAmount;
+
+    public CharSequence getDate() {
+        return null;
+    }
+
+    public Object getAmount() {
+        return null;
+    }
 }
